@@ -1,0 +1,42 @@
+        body {
+            background-color: #FDFBF7;
+            color: #3a2013;
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+        }
+
+        .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f7f2e8;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #cc9e66;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #a36332;
+        }
+
+        /* Smooth transitions */
+        .drawer-transition {
+            transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .modal-fade {
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        .coffee-card-hover {
+            transition: all 0.3s ease;
+        }
+        .coffee-card-hover:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 25px -5px rgba(58, 32, 19, 0.12), 0 10px 10px -5px rgba(58, 32, 19, 0.04);
+        }
